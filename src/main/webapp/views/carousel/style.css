@@ -1,3 +1,7 @@
+.image-info {
+    margin: 20px auto 0;
+    width: 300px;
+}
 .title-info {
     margin: 0 auto;
     width: 400px;
@@ -8,5 +12,7 @@
 }
 .description-info {
     margin: 50px auto 0;
-    width: 1000px;
+    width: 640px;
+    text-align:center;
+
 }
