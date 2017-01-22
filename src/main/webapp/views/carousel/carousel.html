@@ -1,0 +1,10 @@
+
+<div id="personsList">
+    <div ng-repeat="person in elements">
+        <carousel-info person="person" ng-show="person.id == value"></carousel-info>
+    </div>
+</div>
+<rzslider
+        rz-slider-model="value"
+        rz-slider-options="{floor: 0, ceil: 100}"></rzslider>
+<button>Play</button>

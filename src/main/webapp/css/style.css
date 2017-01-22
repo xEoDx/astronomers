@@ -1,0 +1,11 @@
+body {
+    background-color: #000;
+}
+body label, body p {
+    color: #fff;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #fff;
+}
