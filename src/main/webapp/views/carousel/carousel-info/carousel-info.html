@@ -1,12 +1,14 @@
-<div class="image-info">
-    <img src="{{person.photo}}">
-</div>
-<div class="title-info">
-    <h2>{{person.name}}</h2>
-</div>
-<div class="birth-info">
-    <h4>{{person.birth}}</h4>
-</div>
-<div class="description-info">
-    <p>{{person.description}}</p>
+<div ng-show="person != undefined">
+    <div class="image-info">
+        <img src="{{person.photo}}">
+    </div>
+    <div class="title-info">
+        <h2>{{person.name}}</h2>
+    </div>
+    <div class="birth-info">
+        <h4>{{person.birth}}</h4>
+    </div>
+    <div class="description-info">
+        <p>{{person.description}}</p>
+    </div>
 </div>

@@ -1,18 +1,79 @@
 .image-info {
     margin: 20px auto 0;
     width: 300px;
+    text-align: center;
+
 }
+
 .title-info {
     margin: 0 auto;
     width: 400px;
+    text-align: center;
+
 }
+
 .birth-info {
     margin: 0 auto;
     width: 150px;
+    text-align: center;
+
 }
+
 .description-info {
     margin: 50px auto 0;
     width: 640px;
-    text-align:center;
+    text-align: center;
 
+}
+
+.dot {
+    z-index: 99;
+    transition: 0.3s ease-in-out;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #1897ff;
+    margin-left: 20px;
+
+}
+
+.dot .date {
+    font-family: roboto;
+    font-size: 1.5rem;
+    display: block;
+    position: relative;
+    top: -20px;
+    color: white;
+    text-align: left;
+}
+
+.selected {
+    background-color: white;
+}
+
+.timeline {
+    background-color: grey;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+    height: 2px;
+}
+
+.play-button {
+    position: absolute;
+    left: 49%;
+    color: black;
+    background-color: #1897ff;
+    border-color: #0075ff;
+    width: 75px;
+    height: 50px;
+}
+
+.play-button :hover{
+    border-color:black;
+    color: black;
 }
