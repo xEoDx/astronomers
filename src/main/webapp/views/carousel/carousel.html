@@ -1,20 +1,16 @@
 
-<div id="personsList">
+<div id="personsList" class="content">
     <div ng-repeat="person in elements">
         <carousel-info person="person" ng-show="person.id == value"></carousel-info>
     </div>
 </div>
-<!--<rzslider-->
-        <!--rz-slider-model="value"-->
-        <!--rz-slider-options="{floor: 0, ceil: 100}"></rzslider>-->
+
 <div class="col-md-12 timeline">
     <div class="dot" ng-repeat="person in elements" data-ng-style="{'left':'{{$index/elements.length*100}}%'}" data-ng-click="dotClick($index)" data-ng-class="{'selected':value == $index}">
-        <p class="date">{{person.birth | year}}</p>
+        <p class="date">{{person.shortname}}</p>
     </div>
 </div>
 <div class="col-md-12 ">
-<!--<input type="button" class="btn btn-primary form-group play-button" value="Play" />-->
-
     <button type="button" class="btn btn-default play-button" aria-label="Left Align" data-ng-show="!isPlaying" data-ng-click="play()">
         <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
     </button>

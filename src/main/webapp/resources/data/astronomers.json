@@ -4,6 +4,7 @@
     "url": "https://en.wikipedia.org/wiki/Pythagoras",
     "photo": "resources/images/pythagoras.jpg",
     "name": "Pythagoras",
+    "shortname": "Pythagoras",
     "birth": "570 BC",
     "death": "495 BC",
     "description": "Pythagoras of Samos was an Ionian Greek philosopher, mathematician, and the putative founder of the movement called Pythagoreanism. Most of the information about Pythagoras was written down centuries after he lived, so very little reliable information is known about him. He was born on the island of Samos, and travelled, visiting Egypt and Greece, and maybe India. Around 530 BC, he moved to Croton, in Magna Graecia, and there established some kind of school or guild. In 520 BC, he returned to Samos."
@@ -13,6 +14,7 @@
     "url": "https://en.wikipedia.org/wiki/Eratosthenes",
     "photo": "resources/images/eratosthene.png",
     "name": "Eratosthenes of Cyrene",
+    "shortname": "Eratosthenes",
     "birth": "276 BC",
     "death": "194 BC",
     "description": "Eratosthenes of Cyrene was a Greek mathematician, geographer, poet, astronomer, and music theorist. He was a man of learning, becoming the chief librarian at the Library of Alexandria. He invented the discipline of geography, including the terminology used today."
@@ -22,6 +24,7 @@
     "url": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci",
     "photo": "resources/images/leonardo-da-vinci.jpg",
     "name": "Leonardo da Vinci",
+    "shortname": "Leonardo",
     "birth": "15 April 1452",
     "death": "2 May 1519",
     "description": "Leonardo di ser Piero da Vinci was an Italian polymath whose areas of interest included invention, painting, sculpting, architecture, science, music, mathematics, engineering, literature, anatomy, geology, astronomy, botany, writing, history, and cartography. He has been variously called the father of palaeontology, ichnology, and architecture, and is widely considered one of the greatest painters of all time. Sometimes credited with the inventions of the parachute, helicopter and tank, he epitomised the Renaissance humanist ideal."
@@ -31,6 +34,7 @@
     "url": "https://en.wikipedia.org/wiki/Nicolaus_Copernicus",
     "photo": "resources/images/copernicus.jpg",
     "name": "Nicolaus Copernicus",
+    "shortname": "Copernicus",
     "birth": "19 February 1473",
     "death": "24 May 1543",
     "description": "Nicolaus Copernicus was a Renaissance mathematician and astronomer who formulated a model of the universe that placed the Sun rather than the Earth at the center of the universe, likely independently of Aristarchus of Samos, who had formulated such a model some eighteen centuries earlier."
@@ -40,6 +44,7 @@
     "url": "https://en.wikipedia.org/wiki/Tycho_Brahe",
     "photo": "resources/images/tycho-brahe.jpg",
     "name": "Tycho Brahe",
+    "shortname": "Tycho",
     "birth": "14 December 1546",
     "death": "24 October 1601",
     "description": "Tycho Brahe was a Danish nobleman known for his accurate and comprehensive astronomical and planetary observations. He was born in the then Danish peninsula of Scania. Well known in his lifetime as an astronomer, astrologer and alchemist, he has been described as \"the first competent mind in modern astronomy to feel ardently the passion for exact empirical facts.\" His observations were some five times more accurate than the best available observations at the time."
@@ -49,6 +54,7 @@
     "url": "https://en.wikipedia.org/wiki/Galileo_Galilei",
     "photo": "resources/images/galileo.jpg",
     "name": "Galileo Galilei",
+    "shortname": "Galileo",
     "birth": "15 February 1564",
     "death": "8 January 1642",
     "description": "Galileo Galilei was an Italian polymath: astronomer, physicist, engineer, philosopher, and mathematician, he played a major role in the scientific revolution of the seventeenth century."
@@ -58,6 +64,7 @@
     "url": "https://en.wikipedia.org/wiki/Johannes_Kepler",
     "photo": "resources/images/kepler.jpg",
     "name": "Johannes Kepler",
+    "shortname": "Kepler",
     "birth": "27 December 1571",
     "death": "15 November 1630",
     "description": "Johannes Kepler was a German mathematician, astronomer, and astrologer. A key figure in the 17th century scientific revolution, he is best known for his laws of planetary motion, based on his works Astronomia nova, Harmonices Mundi, and Epitome of Copernican Astronomy. These works also provided one of the foundations for Isaac Newton's theory of universal gravitation."
@@ -67,6 +74,7 @@
     "url": "https://en.wikipedia.org/wiki/Giovanni_Domenico_Cassini",
     "photo": "resources/images/cassini.jpg",
     "name": "Jacques Cassini",
+    "shortname": "Cassini",
     "birth": "8 June 1625",
     "death": "14 September 1712",
     "description": "Giovanni Domenico Cassini was an Italian mathematician, astronomer, astrologer and engineer. Cassini was born in Perinaldo, near Imperia, at that time in the County of Nice, part of the Duchy of Savoy. Cassini is known for his work in the fields of astronomy and engineering. Cassini discovered four satellites of the planet Saturn and noted the division of the rings of Saturn; the Cassini Division was named after him. Giovanni Domenico Cassini was also the first of his family to begin work on the project of creating a topographic map of France."
@@ -76,6 +84,7 @@
     "url": "https://en.wikipedia.org/wiki/Isaac_Newton",
     "photo": "resources/images/newton.jpg",
     "name": "Isaac Newton",
+    "shortname": "Newton",
     "birth": "25 December 1642",
     "death": "20 March 1726/1727",
     "description": "Sir Isaac Newton PRS was an English mathematician, astronomer, and physicist (described in his own day as a \"natural philosopher\") who is widely recognised as one of the most influential scientists of all time and a key figure in the scientific revolution. His book Philosophiæ Naturalis Principia Mathematica (\"Mathematical Principles of Natural Philosophy\"), first published in 1687, laid the foundations of classical mechanics. Newton also made seminal contributions to optics, and he shares credit with Gottfried Wilhelm Leibniz for developing the infinitesimal calculus."
@@ -85,6 +94,7 @@
     "url": "https://en.wikipedia.org/wiki/Anders_Celsius",
     "photo": "resources/images/celsius.jpg",
     "name": "Anders Celsius",
+    "shortname": "Celsius",
     "birth": "27 November 1701",
     "death": "25 April 1744",
     "description": "Anders Celsius was a Swedish astronomer, physicist and mathematician. He was professor of astronomy at Uppsala University from 1730 to 1744, but traveled from 1732 to 1735 visiting notable observatories in Germany, Italy and France. He founded the Uppsala Astronomical Observatory in 1741, and in 1742 proposed the Celsius temperature scale which bears his name. In astronomy, Celsius began a series of observations using colored glass plates to record the magnitude (a measure of brightness) of certain stars. This was the first attempt to measure the intensity of starlight with a tool other than the human eye. He made observations of eclipses and various astronomical objects and published catalogues of carefully determined magnitudes for some 300 stars using his own photometric system (mean error=0.4 mag)"
@@ -94,6 +104,7 @@
     "url": "https://en.wikipedia.org/wiki/Nicolas-Louis_de_Lacaille",
     "photo": "resources/images/lacaille.jpg",
     "name": "Nicolas-Louis de Lacaille",
+    "shortname": "Lacaille",
     "birth": "29 December 1713",
     "death": "21 March 1762",
     "description": "Lacaille was a French astronomer and priest. His desire to determine the distances of the planets trigonometrically, using the longest possible baseline, led him to propose, in 1750, an expedition to the Cape of Good Hope. The primary result of his two-year stay was a catalogue of nearly 10,000 southern stars, the production of which required observing every night for over a year. In the course of his survey he took note of 42 nebulous objects. He also achieved his aim of determining the lunar and solar parallaxes (Mars serving as an intermediary).  Apart from constructing astronomical ephemerides and mathematical tables, he calculated a table of eclipses for 1800 years."
@@ -103,6 +114,7 @@
     "url": "https://en.wikipedia.org/wiki/Charles_Messier",
     "photo": "resources/images/messier.jpg",
     "name": "Charles Messier",
+    "shortname": "Messier",
     "birth": "26 June 1730",
     "death": "12 April 1817",
     "description": "Charles Messier was a French astronomer most notable for publishing an astronomical catalogue consisting of nebulae and star clusters that came to be known as the 110 \"Messier objects\". The purpose of the catalogue was to help astronomical observers, in particular comet hunters such as himself, distinguish between permanent and transient visually diffuse objects in the sky."
@@ -112,6 +124,7 @@
     "url": "https://en.wikipedia.org/wiki/Pierre-Simon_Laplace",
     "photo": "resources/images/laplace.jpg",
     "name": "Pierre-Simon Laplace",
+    "shortname": "Laplace",
     "birth": "23 March 1749",
     "death": "5 March 1827",
     "description": "Pierre-Simon, marquis de Laplace was an influential French scholar whose work was important to the development of mathematics, statistics, physics and astronomy. Laplace's early published work in 1771 started with differential equations and finite differences but he was already starting to think about the mathematical and philosophical concepts of probability and statistics. Laplace completely determined the attraction of a spheroid on a particle outside it. This is memorable for the introduction into analysis of spherical harmonics or Laplace's coefficients, and also for the development of the use of what we would now call the gravitational potential in celestial mechanics."
@@ -121,6 +134,7 @@
     "url": "https://en.wikipedia.org/wiki/Annie_Jump_Cannon",
     "photo": "resources/images/cannon.jpg",
     "name": "Annie Jump Cannon",
+    "shortname": "Cannon",
     "birth": "11 December 1863",
     "death": "13 April 1941",
     "description": "Annie Jump Cannon was an American astronomer whose cataloging work was instrumental in the development of contemporary stellar classification. With Edward C. Pickering, she is credited with the creation of the Harvard Classification Scheme, which was the first serious attempt to organize and classify stars based on their temperatures and spectral types. She was nearly deaf throughout her career."
@@ -130,6 +144,7 @@
     "url": "https://en.wikipedia.org/wiki/Albert_Einstein",
     "photo": "resources/images/einstein.jpg",
     "name": "Albert Einstein",
+    "shortname": "Einstein",
     "birth": "14 March 1879",
     "death": "18 April 1955",
     "description": "TODO"
@@ -139,6 +154,7 @@
     "url": "https://en.wikipedia.org/wiki/Bernhard_Schmidt",
     "photo": "resources/images/schmidt.jpg",
     "name": "Bernhard Schmidt",
+    "shortname": "Schmidt",
     "birth": "11 April 1879",
     "death": "1 December 1935",
     "description": "Bernhard Woldemar Schmidt was a German optician. In 1930 he invented the Schmidt telescope which corrected for the optical errors of spherical aberration, coma, and astigmatism, making possible for the first time the construction of very large, wide-angled reflective cameras of short exposure time for astronomical research."
@@ -148,6 +164,7 @@
     "url": "https://en.wikipedia.org/wiki/Edwin_Hubble",
     "photo": "resources/images/hubble.jpg",
     "name": "Edwin Hubble",
+    "shortname": "Hubble",
     "birth": "20 November 1889",
     "death": "28 September 1953",
     "description": "Edwin Powell Hubble was an American astronomer who played a crucial role in establishing the field of extragalactic astronomy and is generally regarded as one of the most important observational cosmologists of the 20th century. Hubble is known for showing that the recessional velocity of a galaxy increases with its distance from the earth, implying the universe is expanding, known as \"Hubble's law\", although a preliminary version of this relation was proposed by Georges Lemaître two years earlier in a less prominent journal."
@@ -157,6 +174,7 @@
     "url": "https://en.wikipedia.org/wiki/Carl_Sagan",
     "photo": "resources/images/sagan.jpg",
     "name": "Carl Sagan",
+    "shortname": "Sagan",
     "birth": "9 November 1934",
     "death": "20 December 1996",
     "description": "Carl Edward Sagan was an American astronomer, cosmologist, astrophysicist, astrobiologist, author, science popularizer, and science communicator in astronomy and other natural sciences. He is best known for his work as a science popularizer and communicator. His best known scientific contribution is research on extraterrestrial life, including experimental demonstration of the production of amino acids from basic chemicals by radiation. Sagan assembled the first physical messages sent into space: the Pioneer plaque and the Voyager Golden Record, universal messages that could potentially be understood by any extraterrestrial intelligence that might find them. Sagan argued the now accepted hypothesis that the high surface temperatures of Venus can be attributed to and calculated using the greenhouse effect."
@@ -166,6 +184,7 @@
     "url": "https://en.wikipedia.org/wiki/Stephen_Hawking",
     "photo": "resources/images/hawking.jpg",
     "name": "Stephen Hawking",
+    "shortname": "Hawking",
     "birth": "8 January 1942",
     "death": "",
     "description": "Stephen William Hawking is an English theoretical physicist, cosmologist, author and Director of Research at the Centre for Theoretical Cosmology within the University of Cambridge.[16][17] His scientific works include a collaboration with Roger Penrose on gravitational singularity theorems in the framework of general relativity and the theoretical prediction that black holes emit radiation, often called Hawking radiation. Hawking was the first to set forth a theory of cosmology explained by a union of the general theory of relativity and quantum mechanics. He is a vigorous supporter of the many-worlds interpretation of quantum mechanics."
