@@ -1,14 +1,14 @@
-<div ng-show="person != undefined">
+<div ng-show="person != undefined" class="dump-top">
     <div class="col-sm-12 center">
         <img ng-src="{{person.photo}}">
     </div>
     <div class="col-sm-12 center">
-        <h2>{{person.name}}</h2>
+        <h2><a ng-href="{{person.url}}" target="_blank">{{person.name}}</a></h2>
     </div>
     <div class="col-sm-12 center">
         <h4>{{person.birth}} - {{person.death}}</h4>
     </div>
     <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 center">
-        <p>{{person.description}}</p>
+        <p class="description">{{person.description}}</p>
     </div>
 </div>

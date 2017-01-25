@@ -1,22 +1,26 @@
-
 <div id="personsList" class="content">
     <div ng-repeat="person in elements">
         <carousel-info person="person" ng-show="person.id == value"></carousel-info>
     </div>
 </div>
-
-<div class="col-md-12 timeline">
-    <div class="dot" ng-repeat="person in elements" data-ng-style="{'left':'{{$index/elements.length*100}}%'}" data-ng-click="dotClick($index)" data-ng-class="{'selected':value == $index}">
-        <p class="date">{{person.shortname}}</p>
+<div class="col-xs-12" style="background-color: black">
+    <div class="col-xs-12 timeline">
+        <div class="dot" ng-repeat="person in elements" data-ng-style="{'left':'{{$index/elements.length*100}}%'}"
+             data-ng-click="dotClick($index)" data-ng-class="{'selected':value == $index}">
+            <p class="shortname">{{person.shortname}}</p>
+        </div>
     </div>
-</div>
-<div class="col-md-12 ">
-    <button type="button" class="btn btn-default play-button" aria-label="Left Align" data-ng-show="!isPlaying" data-ng-click="play()">
-        <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
-    </button>
 
-    <button type="button" class="btn btn-default play-button" aria-label="Left Align" data-ng-show="isPlaying" data-ng-click="stop()">
-        <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
-    </button>
+    <div class="col-xs-12 carousel-actions">
+        <button type="button" class="btn btn-default play-button" aria-label="Left Align" data-ng-show="!isPlaying"
+                data-ng-click="play()">
+            <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </button>
+
+        <button type="button" class="btn btn-default play-button" aria-label="Left Align" data-ng-show="isPlaying"
+                data-ng-click="stop()">
+            <span class="glyphicon glyphicon-pause" aria-hidden="true"></span>
+        </button>
+    </div>
 
 </div>

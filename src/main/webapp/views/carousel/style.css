@@ -1,7 +1,9 @@
 .center {
-
     text-align: center;
+}
 
+.dump-top {
+    margin-top: 20px;
 }
 
 .dot {
@@ -19,12 +21,12 @@
 
 }
 
-.dot .date {
-    font-family: roboto;
-    font-size: 1.5rem;
+.dot .shortname {
+    font-family: "DK Sugary Pancake";
     display: block;
     position: relative;
     top: -20px;
+    left: -15px;
     color: white;
     text-align: left;
 }
@@ -35,10 +37,17 @@
 
 .timeline {
     background-color: grey;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     margin-top: 50px;
-    position: relative;
+    position: fixed;
     height: 2px;
+    bottom: 0;
+}
+
+.carousel-actions {
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 60px;
 }
 
 .play-button {
@@ -58,4 +67,8 @@
 
 .content {
     height: 700px;
+}
+
+.description {
+    font-size: 1.4em;
 }

@@ -38,8 +38,8 @@ angular.module("carousel", [])
             $scope.value=index;
         };
 
-        $scope.carouselInterval = null;
 
+        $scope.carouselInterval = null;
         $scope.play = function () {
             $scope.isPlaying = true;
             $scope.carouselInterval = $interval(function () {
@@ -53,5 +53,5 @@ angular.module("carousel", [])
             $interval.cancel($scope.carouselInterval);
         };
 
-
+        $scope.play();
     }]);
