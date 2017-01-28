@@ -11,6 +11,12 @@
         </div>
     </div>
 
+    <div class="col-xs-12 device-timeline"  ng-swipe-left="swipe">
+        <div class="device-dot col-xs-4" style="left: 27%; opacity: 0.85" data-ng-click="dotClick(previousElement)"><p class="shortname">{{elements[previousElement].shortname}}</p></div>
+        <div class="device-dot col-xs-4" style="left: 47%" data-ng-click="dotClick(value)"><p class="shortname">{{elements[value].shortname}}</p></div>
+        <div class="device-dot col-xs-4" style="left: 67%; opacity: 0.85" data-ng-click="dotClick(nextElement)"><p class="shortname">{{elements[nextElement].shortname}}</p></div>
+    </div>
+
     <div class="col-xs-12 carousel-actions">
         <button type="button" class="btn btn-default play-button" aria-label="Left Align" data-ng-show="!isPlaying"
                 data-ng-click="play()">

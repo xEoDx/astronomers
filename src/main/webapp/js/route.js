@@ -4,7 +4,6 @@
 angular.module("astronomersModule")
     .config(["$routeProvider", "$locationProvider", function($routeProvider, $locationProvider)
     {
-        console.log("Initializing routeProvider");
         $routeProvider
             .when('/', {
                 templateUrl: 'js/view.html',
