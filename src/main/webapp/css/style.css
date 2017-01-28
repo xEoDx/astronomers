@@ -1,4 +1,8 @@
-body {
+@-ms-viewport{
+    width: device-width;
+}
+
+html, body {
     background-color: #000;
 }
 
@@ -27,6 +31,7 @@ url('../resources/fonts/DK%20Sugary%20Pancake.ttf')  format('truetype') /* Safar
     margin: 0 0 15px 15px;
     bottom: 0;
     float: left;
-    position: fixed;
+    /*position: fixed;*/
     color: dimgray;!important;
+    background-color: black;
 }

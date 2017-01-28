@@ -3,7 +3,7 @@
         <carousel-info person="person" ng-show="person.id == value"></carousel-info>
     </div>
 </div>
-<div class="col-xs-12" style="background-color: black">
+<div class="col-xs-12 carousel-footer">
     <div class="col-xs-12 timeline">
         <div class="dot" ng-repeat="person in elements" data-ng-style="{'left':'{{$index/elements.length*100}}%'}"
              data-ng-click="dotClick($index)" data-ng-class="{'selected':value == $index}">

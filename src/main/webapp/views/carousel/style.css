@@ -1,3 +1,87 @@
+@media (min-width: 1024px) {
+    h2 a {
+        font-size: 40px;
+    }
+    h4 {
+        font-size: 28px;
+    }
+
+    .description {
+        font-size: 25px;
+    }
+    .timeline {
+        display: block;
+    }
+
+    .content {
+        min-height: 900px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    h2 a {
+        font-size: 60px;
+    }
+    h4 {
+        font-size: 38px;
+    }
+
+    .description {
+        font-size: 35px;
+    }
+
+    .timeline {
+        display: none;
+    }
+
+    .content {
+        min-height: 600px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+    h2 a {
+        font-size: 40px;
+    }
+    h4 {
+        font-size: 28px;
+    }
+
+    .description {
+        font-size: 25px;
+    }
+
+    .timeline {
+        display: none;
+    }
+
+    .content {
+        min-height: 600px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+    h2 a {
+        font-size: 40px;
+    }
+    h4 {
+        font-size: 28px;
+    }
+
+    .description {
+        font-size: 25px;
+    }
+
+    .timeline {
+        display: none;
+    }
+
+    .content {
+        min-height: 600px;
+    }
+}
+
+
 .center {
     text-align: center;
 }
@@ -37,17 +121,17 @@
 
 .timeline {
     background-color: grey;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     margin-top: 50px;
-    position: fixed;
+    /*position: fixed;*/
     height: 2px;
     bottom: 0;
 }
 
 .carousel-actions {
-    position: fixed;
+    /*position: fixed;*/
     bottom: 0;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .play-button {
@@ -65,10 +149,10 @@
     color: black;
 }
 
-.content {
-    height: 700px;
+.carousel-footer{
+    background-color: black;
 }
 
-.description {
-    font-size: 1.4em;
-}
+/*.description {*/
+    /*font-size: 1.4em;*/
+/*}*/
