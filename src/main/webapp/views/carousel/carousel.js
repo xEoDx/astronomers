@@ -12,26 +12,12 @@ angular.module("carousel", ['ngTouch', 'ngAnimate'])
             controller: 'carouselController'
         };
     })
-    .filter('year', function () {
-        return function (input, optional1, optional2) {
-            var parsedDate = 0;
-            var splittedDate = input.split(" ");
-            if (splittedDate.length == 3) {
-                parsedDate = splittedDate[2];
-            } else if (splittedDate.length == 2) {
-                parsedDate = splittedDate[0];
-            } else {
-                console.log("Error obtaining parsed date: ", parsedDate);
-            }
-            return parsedDate;
-        }
-    })
     .controller("carouselController", ['$scope', '$log', '$interval', '$animate', '$timeout', function ($scope, $log, $interval, $animate, $timeout) {
         $scope.value = 0;
         $scope.isPlaying = false;
 
         $scope.$watch('elements', function (newValue, oldValue) {
-            if(newValue.length > 0){
+            if (newValue.length > 0) {
                 updateCarouselIndexValues();
             }
         });
@@ -68,7 +54,7 @@ angular.module("carousel", ['ngTouch', 'ngAnimate'])
         };
 
         function updateCarouselIndexValues() {
-            $scope.previousElement = (($scope.value - 1) > 0) ? $scope.value - 1 : ($scope.elements.length - 1);
+            $scope.previousElement = (($scope.value - 1) < 0) ? ($scope.elements.length - 1) : $scope.value - 1;
             $scope.nextElement = (($scope.value + 1) >= $scope.elements.length) ? 0 : $scope.value + 1;
         }
 
