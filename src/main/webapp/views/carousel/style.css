@@ -226,4 +226,5 @@
 
 .description {
     color: #b7b7b7;
+    white-space: pre-wrap;
 }
