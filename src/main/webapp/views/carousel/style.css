@@ -145,6 +145,11 @@
     bottom: 0;
 }
 
+.secondary-dot {
+    opacity: 0.99;
+    background-color: dimgrey !important;
+}
+
 .dot {
     z-index: 99;
     transition: 0.3s ease-in-out;
@@ -193,6 +198,12 @@
     font-family: "DK Sugary Pancake";
     color: white;
     text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .selected {
@@ -207,7 +218,7 @@
 
 .play-button {
     position: absolute;
-    left: 47.5%;
+    left: 49%;
     color: black;
     background-color: #1897ff;
     border-color: #0075ff;
