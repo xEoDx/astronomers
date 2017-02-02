@@ -1,3 +1,36 @@
+.animate-show {
+    display:block!important;
+    /*position: absolute;*/
+    -moz-transition:all linear 1s;
+    -o-transition:all linear 1s;
+    -webkit-transition:all linear 1s;
+    transition:all linear 1s;
+    opacity:1;
+}
+/* when hiding */
+.animate-show.ng-hide-add {
+    position: absolute;
+
+    opacity: 0;
+    transition: all 0.75s ease-in-out;
+}
+/* hide end position  */
+.animate-show.ng-hide-add.ng-hide-add-active {
+    opacity: 0;
+}
+/* when showing */
+.animate-show.ng-hide-remove {
+    opacity: 0;
+    transition: all 1.5s ease;
+}
+/* showing end position */
+.animate-show.ng-hide-remove.ng-hide-remove-active {
+    position: relative;
+
+    opacity: 1;
+}
+
+
 @media (min-width: 1024px) {
     h2 a {
         font-size: 40px;
@@ -62,6 +95,11 @@
     .content {
         min-height: 600px;
     }
+
+    .carousel-footer {
+        margin-top: 150px;
+        background-color: black;
+    }
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
@@ -93,6 +131,11 @@
 
     .content {
         min-height: 600px;
+    }
+
+    .carousel-footer {
+        margin-top: 100px;
+        background-color: black;
     }
 }
 
@@ -126,6 +169,11 @@
     .content {
         min-height: 600px;
     }
+
+    .carousel-footer {
+        margin-top: 100px;
+        background-color: black;
+    }
 }
 
 .center {
@@ -133,6 +181,7 @@
 }
 
 .dump-top {
+
     margin-top: 20px;
 }
 
@@ -217,6 +266,7 @@
 }
 
 .play-button {
+    margin-top: 15px;
     position: absolute;
     left: 49%;
     color: black;
@@ -231,9 +281,11 @@
     color: black;
 }
 
-.carousel-footer {
-    background-color: black;
+h5 a {
+    font-size: 1.2em;
 }
+
+
 
 .description {
     color: #b7b7b7;
