@@ -12,7 +12,7 @@ angular.module("carousel", ['ngTouch', 'ngAnimate'])
             controller: 'carouselController'
         };
     })
-    .controller("carouselController", ['$scope', '$log', '$interval', '$animate', '$timeout', function ($scope, $log, $interval, $animate, $timeout) {
+    .controller("carouselController", ['$scope', '$log', '$interval', '$window', function ($scope, $log, $interval, $window) {
         $scope.value = 0;
         $scope.isPlaying = false;
 
@@ -26,6 +26,7 @@ angular.module("carousel", ['ngTouch', 'ngAnimate'])
             $log.info("User clicked on dot: ", index);
             $scope.value = index;
             updateCarouselIndexValues();
+            $window.scrollTo(0, 0);
             if ($scope.isPlaying) {
                 $scope.stop();
                 $scope.play();
